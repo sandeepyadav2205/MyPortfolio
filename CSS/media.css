@@ -1,0 +1,269 @@
+@media (max-width: 768px) {
+    nav {
+        justify-content: space-evenly;
+        gap: 100px;
+    }
+
+
+
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: -100%;
+        flex-direction: column;
+        width: 100%;
+        gap: 5px;
+        background: linear-gradient(to right, #03133d, #0b3c74);
+        text-align: center;
+        padding: 20px 0;
+        transition: 0.8s ease;
+    }
+
+    nav ul.active {
+        left: 0;
+    }
+
+    nav ul li {
+        margin: 15px 0;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .icons {
+        display: none;
+
+    }
+
+    .icons a {
+        font-size: 20px;
+    }
+
+
+    .hero-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -30px;
+    }
+
+    .profile-outer {
+        width: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+
+    .info-outer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .info-outer h1 {
+        text-align: center;
+        font-size: 6vw;
+        line-height: 30px;
+    }
+
+    .typing {
+        font-size: 17px;
+    }
+
+    .info-outer p {
+        font-size: 15px;
+    }
+
+    #about ul {
+        list-style-position: inside;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    #skills {
+        margin-top: 40px;
+    }
+
+    .skill-outer {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    #services {
+        margin-top: 40px;
+    }
+
+    .service {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    .Services-box {
+        gap: 20px;
+        padding: 3vw;
+    }
+
+
+    #project {
+        margin-top: 40px;
+    }
+
+    .image {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    .image img {
+        height: 22vh;
+        width: 80vw;
+    }
+
+    #contact {
+        margin-top: 40px;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .talksme {
+        width: 100%;
+    }
+
+    .query-form {
+        margin-top: 40px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .contact-form .inp input,
+    .message textarea {
+        width: 80%;
+    }
+
+    .contact-form label {
+        top: 12px;
+        left: 32px;
+    }
+
+    .footers {
+        font-size: 13px;
+    }
+
+
+
+}
+
+@media only screen and (min-width:769px) and (max-width: 1024px) {
+    nav {
+        height: 50px;
+    }
+
+    nav ul li {
+        padding: 5px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    nav ul li a::after {
+        height: 3px;
+        background-color: #0b66f8;
+        width: 50%;
+        left: 0;
+        bottom: -2px;
+        transition: .5s ease-in-out;
+    }
+
+    .icons a {
+        font-size: 20px;
+    }
+
+    .icons a:nth-child(2) {
+        height: 18px;
+        width: 18px;
+    }
+
+    #Home {
+        width: 99%;
+        margin: auto;
+    }
+
+    .hero-container {
+        width: 97%;
+        padding: 15px;
+        margin: auto;
+    }
+
+    .profile-outer {
+        width: 28%;
+    }
+
+    .profile {
+        height: 300px;
+        width: 400px;
+    }
+
+    .info-outer {
+        height: 500px;
+        width: 60%;
+        margin: auto;
+    }
+
+    .info-outer h1 {
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 20px;
+        margin-top: 100px;
+    }
+
+    .info-outer p {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .typing {
+        margin-left: 0;
+        font-size: 16px;
+    }
+
+    #about {
+        width: 99%;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    #about ul {
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: auto;
+        gap: 10px;
+        place-items: center;
+    }
+
+    .image {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .image img {
+        height: 200px;
+        width: 300px;
+        border-radius: 10px;
+        border: 2px solid #00c6ff;
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+
+
+    .contact-form label {
+        top: 12px;
+        left: 70px;
+    }
+
+}
