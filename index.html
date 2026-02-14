@@ -47,6 +47,10 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -82,12 +86,12 @@
         <!-- Hero Section Start -->
         <section id="Home">
             <div class="hero-container">
-                <div class="profile-outer">
+                <div class="profile-outer" data-aos="fade-down-right" data-aos-duration="1500">
                     <div class="profile">
                         <img src="/Images/sandeep_yadav_photo.png" alt="sandeep_yadav_photo">
                     </div>
                 </div>
-                <div class="info-outer">
+                <div class="info-outer" data-aos="fade-up-left" data-aos-duration="1500">
                     <h1>Hi, I’m Sandeep Yadav <br>
                         Full Stack .NET Developer</h1>
                     <div class="typing">
@@ -104,7 +108,7 @@
         <!-- Hero Section End -->
 
         <!-- about section start -->
-        <section id="about">
+        <section id="about" data-aos="zoom-in" data-aos-duration="1000">
             <h1>About Me</h1>
             <hr />
 
@@ -155,31 +159,31 @@
             <h1>My Skills</h1>
             <hr>
             <div class="skill-outer">
-                <div class="skill-box">
+                <div class="skill-box" data-aos="flip-left"data-aos-duration="1300">
                     <img src="/Images/css.png" alt="css" title="css">
                 </div>
-                <div class="skill-box">
+                <div class="skill-box" data-aos="flip-left" data-aos-duration="1300">
                     <img src="/Images/bootstrap.png" alt="bootstrap" title="bootstrap">
                 </div>
-                <div class="skill-box">
+                <div class="skill-box" data-aos="flip-left" data-aos-duration="1300">
                     <img src="/Images/js.png" alt="javascript" title="javascript">
                 </div>
-                <div class="skill-box">
+                <div class="skill-box" data-aos="flip-left" data-aos-duration="1300">
                     <img src="/Images/jquery.png" alt="jquery" title="jquery">
                 </div>
-                <div class="skill-box">
+                <div class="skill-box" data-aos="flip-left" data-aos-duration="1300">
                     <img src="/Images/angular.png" alt="angular" title="angular">
                 </div>
-                <div class="skill-box">
+                <div class="skill-box" data-aos="flip-left" data-aos-duration="1300">
                     <img src="/Images/csharp.png" alt="csharp" title="csharp">
                 </div>
-                <div class="skill-box">
+                <div class="skill-box" data-aos="flip-left" data-aos-duration="1300">
                     <img src="/Images/ASP.Net.png" alt="ASP.Net" title="ASP.Net">
                 </div>
-                <div class="skill-box">
+                <div class="skill-box" data-aos="flip-left" data-aos-duration="1300">
                     <img src="/Images/sql.png" alt="SQL" title="SQL">
                 </div>
-                <div class="skill-box">
+                <div class="skill-box" data-aos="flip-left" data-aos-duration="1300">
                     <img src="/Images/git.png" alt="git-github" title="git-github">
                 </div>
             </div>
@@ -191,7 +195,7 @@
             <h1>My Services</h1>
             <hr>
             <div class="service">
-                <div class="Services-box">
+                <div class="Services-box" data-aos="fade-down" data-aos-duration="1500">
                     <h2>01</h2>
                     <h2>Full Stack Web Development</h2>
                     <p>I develop end-to-end web applications using C#, ASP.NET Core, Web API, and SQL Server. From
@@ -202,7 +206,7 @@
                         user-friendly.
                     </p>
                 </div>
-                <div class="Services-box">
+                <div class="Services-box" data-aos="fade-down" data-aos-duration="1500">
                     <h2>02</h2>
                     <h2>RESTful API Development</h2>
                     <p>I design and develop secure REST APIs using ASP.NET Core and Web API. I implement JWT
@@ -214,7 +218,7 @@
                         applications
                         or third-party services.</p>
                 </div>
-                <div class="Services-box">
+                <div class="Services-box" data-aos="fade-down" data-aos-duration="1500">
                     <h2>03</h2>
                     <h2>Database Design & Performance Optimization</h2>
                     <p>I work extensively with Microsoft SQL Server for database design, query optimization, indexing,
@@ -232,9 +236,9 @@
             <h1>Latest Project</h1>
             <hr>
             <div class="image">
-                <img src="/Images/Screenshot 2026-02-11 171029.png" alt="project-image" title="project-image"> <img
-                    src="/Images/Screenshot 2026-02-11 171225.png" alt="project-image" title="project-image"> <img
-                    src="/Images/Screenshot 2026-02-11 171257.png" alt="project-image" title="project-image">
+                <img src="/Images/Screenshot 2026-02-11 171029.png" alt="project-image" title="project-image" data-aos="zoom-out" data-aos-duration="1200"> <img
+                    src="/Images/Screenshot 2026-02-11 171225.png" alt="project-image" title="project-image" data-aos="zoom-out" data-aos-duration="1200"> <img
+                    src="/Images/Screenshot 2026-02-11 171257.png" alt="project-image" title="project-image" data-aos="zoom-out" data-aos-duration="1200">
             </div>
         </section>
         <!-- project section end -->
@@ -244,7 +248,7 @@
             <h1>Contact Me</h1>
             <hr>
             <div class="contact-container">
-                <div class="talksme">
+                <div class="talksme" data-aos="fade-right" data-aos-duration="900">
                     <h2>Let’s Build the Future Together</h2>
                     <p>I’m passionate about building secure, scalable, and high-performance web applications using the
                         .NET
@@ -266,7 +270,7 @@
                     </div>
                 </div>
 
-                <div class="query-form">
+                <div class="query-form" data-aos="fade-left" data-aos-duration="900">
                     <form action="">
                         <div class="contact-form">
                             <div>
@@ -341,6 +345,18 @@
         });
     </script>
     <!-- toggle end -->
+
+    <!-- AOS start -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <!-- AOS end -->
+
+    <!-- AOS Init -->
+    <script>
+        AOS.init({
+            Infinity: true
+        });
+    </script>
+
 </body>
 
 </html>

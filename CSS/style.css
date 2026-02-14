@@ -285,15 +285,6 @@ nav ul li a:hover::after {
     gap: 30px;
 }
 
-#about ul li {
-    transition: .5s ease;
-}
-
-#about ul li:hover {
-    transform: scale(1.2);
-    filter: drop-shadow(0 0 15px #00f2ff);
-}
-
 /* skills */
 
 #skills {
@@ -341,8 +332,8 @@ nav ul li a:hover::after {
 }
 
 .skill-box:hover {
-    transform: scale(1.1);
-    filter: drop-shadow(0 0 15px #00f2ff);
+    transform: scale(1.1) !important;
+    filter: drop-shadow(0 0 15px #00f2ff) !important;
 }
 
 #services {
@@ -384,13 +375,12 @@ nav ul li a:hover::after {
     border-radius: 10px;
     padding: 20px;
     background: rgba(15, 25, 45, 0.85);
-    transition: all 0.4s ease;
 }
 
 .Services-box:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 25px #00f2ff60;
-    transform: translateY(-8px);
+    transform: scale(1) !important;
+    box-shadow: 0 0 25px #00f2ff60 !important;
+    transform: translateY(28px) !important;
 }
 
 .Services-box h2 {
@@ -437,8 +427,8 @@ nav ul li a:hover::after {
 }
 
 .image img:hover {
-    transform: scale(1.03);
-    box-shadow: 0 0 25px #00f2ff80;
+    transform: scale(1.03) !important;
+    box-shadow: 0 0 25px #00f2ff80 !important;
 }
 
 #contact {

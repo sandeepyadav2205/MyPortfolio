@@ -1,4 +1,9 @@
 @media (max-width: 768px) {
+[data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
     nav {
         justify-content: space-evenly;
         gap: 100px;
